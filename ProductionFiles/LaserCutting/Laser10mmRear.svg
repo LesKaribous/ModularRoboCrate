@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="420mm"
+   height="297mm"
+   viewBox="0 0 4200 2970"
+   version="1.2"
+   id="svg53"
+   sodipodi:docname="Laser10mmRear.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview53"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.48443948"
+     inkscape:cx="716.29174"
+     inkscape:cy="453.10097"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Page003" />
+  <title
+     id="title1">FreeCAD SVG Export</title>
+  <desc
+     id="desc1">Drawing page: Page003 exported from FreeCAD document: BoiteUtilitaireGrid</desc>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="Page003"
+     inkscape:label="TechDraw">
+    <path
+       id="path52"
+       style="font-style:normal;font-weight:400;font-size:29.1042px;font-family:'MS Shell Dlg 2';fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+       d="m 1590.5,1506.94 v -300 m 0,300 c 0,55.228 -44.772,100 -100,100 m 0,-500 c 55.228,0 100,44.7715 100,100 m -900,400 h 800 m 0,-500 h -800 m 0,500 c -55.23,0 -100,-44.772 -100,-100 m 0,-300 c 0,-55.2285 44.77,-100 100,-100 m -100,100 v 300 m 910,350 v 100 m -600,-100 h 600 m 0,100 h -600 m 0,0 v -100 m 2110,-650 v 300 m -100,100 c 55.23,0 100,-44.772 100,-100 m -100,100 h -800 m -100,-100 c 0,55.228 44.772,100 100,100 m -100,-100 v -300 m 100,-100 c -55.228,0 -100,44.7715 -100,100 m 100,-100 h 800 m 100,100 c 0,-55.2285 -44.77,-100 -100,-100 m -210,750 v 100 m -600,-100 h 600 m 0,100 h -600 m 0,0 v -100 m 1033.85,334.2 -24.9,-68.402 m -93.97,-65.798 c 42.04,0 79.59,26.293 93.97,65.798 m 24.9,68.402 c 14.37,39.51 51.92,65.8 93.96,65.8 m -212.83,-200 H 585.52 m 2764.98,200 H 3228.31 M 491.55,2122.738 c 14.38,-39.505 51.93,-65.798 93.97,-65.798 m 2864.98,100 c 0,55.23 -44.77,100 -100,100 M 491.55,2122.738 466.65,2191.14 M 3450.5,1006.94 v 1150 m -3077.81,100 c 42.04,0 79.59,-26.29 93.96,-65.8 M 3520.5,1006.94 h -70 m -3077.81,1250 H 250.5 m 3300,-1280 -30,30 m -3370,1150 c 0,55.23 44.77,100 100,100 m 3300,-1820 v 540 m -3400,1180 v -1150 m 3370,-600 30,30 m -3470,570 h 70 m 3300,-600 h 70 m -3440,600 -30,-30 m 3400,-770 v 200 m -3400,30 v 540 m 3400,-770 c 0,-55.23 -44.77,-100 -100,-100 m -3270,300 -30,30 m 200,-330 h 3100 m -3200,300 h -70 m 70,-200 c 0,-55.23 44.77,-100 100,-100 m -100,300 v -200" />
+  </g>
+</svg>
