@@ -1,11 +1,20 @@
 title: Doc Projet
 description: Documentation du projet
 
-# NE RIEN MODIFIER CI-DESSOUS SI VOUS N'ETES PAS CERTAINS DE CE QUE VOUS FAITES
-
-# Thème
+# Theme
 remote_theme: leskaribous/JustTheDocsTemplate
 
-# Si vous utilisez GitHub Pages, assurez-vous que jekyll-remote-theme est inclus
+# Plugins
+
 plugins:
   - jekyll-remote-theme
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
