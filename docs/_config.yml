@@ -8,6 +8,7 @@ remote_theme: leskaribous/JustTheDocsTemplate
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Exclusions
 exclude:
