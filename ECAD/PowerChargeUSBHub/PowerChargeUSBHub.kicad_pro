@@ -426,7 +426,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "aisler-2-layer-simpel.kicad_pro",
+    "filename": "PowerChargeUSBHub.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -463,7 +463,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "PowerChargeUSBHub.wrl"
     },
     "page_layout_descr_file": ""
   },

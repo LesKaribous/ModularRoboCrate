@@ -838,6 +838,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 49.53 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0fd3a046-c869-41ae-aa23-5d555cd868ee)
+    (property "Reference" "#PWR017" (at 49.53 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 49.53 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 49.53 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 49.53 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 781ff532-e069-4fdb-9125-07a5a0cfe94a))
+    (instances
+      (project "PowerChargeUSBHub"
+        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:Polyfuse_Small") (at 175.26 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10136aeb-4a39-4e20-a44c-a007111bfd19)
@@ -859,6 +884,35 @@
       (project "PowerChargeUSBHub"
         (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
           (reference "F1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:USB_A") (at 104.14 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 11ed1553-1fc3-497b-8f22-7c6b55eae7a4)
+    (property "Reference" "J1" (at 104.14 45.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "USB_A" (at 104.14 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal" (at 107.95 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" " ~" (at 107.95 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2e93674-e1c6-400e-b3e1-761745720ddc))
+    (pin "2" (uuid f9988f19-c5c2-4097-a766-9579af198aaa))
+    (pin "3" (uuid 64fbc37e-4234-45ad-9770-62a463c8e29e))
+    (pin "4" (uuid ba74094c-2058-4140-ab1f-5a8f8986f48f))
+    (pin "5" (uuid 924bb087-b85a-446a-9222-013e3455ad41))
+    (instances
+      (project "PowerChargeUSBHub"
+        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -955,8 +1009,8 @@
     (property "Datasheet" "~" (at 99.06 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 044d6277-2199-4442-bca6-a4d57bae1e49))
     (pin "1" (uuid c313595b-ba6a-4c82-9434-39dbf5dbf130))
+    (pin "2" (uuid 044d6277-2199-4442-bca6-a4d57bae1e49))
     (instances
       (project "PowerChargeUSBHub"
         (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
@@ -991,6 +1045,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 57.15 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2658d540-231d-453d-9f4d-69eb5436989b)
+    (property "Reference" "#PWR018" (at 57.15 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 57.15 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 57.15 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 57.15 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9cd72e7e-3218-4863-97e5-de571ca70662))
+    (instances
+      (project "PowerChargeUSBHub"
+        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:USB_C_Receptacle_PowerOnly_6P") (at 157.48 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29edf318-d229-427e-ba7b-ccd99df90c9d)
@@ -1006,13 +1085,13 @@
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 157.48 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "B12" (uuid 577a2d49-b946-4917-9930-870a49af9ec6))
-    (pin "B9" (uuid c9f0f231-853a-4098-833b-f7eb01fe8604))
-    (pin "S1" (uuid cfc5a586-8edf-4815-880a-51b7f3f98408))
     (pin "A12" (uuid 067f2d26-63ee-45aa-a031-f85cff644d7a))
-    (pin "B5" (uuid 9ddfedbc-1c4e-4074-9ad5-57845289bfea))
     (pin "A5" (uuid c66ec89e-ac9d-4360-9aa0-06411a86787f))
     (pin "A9" (uuid 91c08f11-5c76-4a54-b061-cc58f5fad165))
+    (pin "B12" (uuid 577a2d49-b946-4917-9930-870a49af9ec6))
+    (pin "B5" (uuid 9ddfedbc-1c4e-4074-9ad5-57845289bfea))
+    (pin "B9" (uuid c9f0f231-853a-4098-833b-f7eb01fe8604))
+    (pin "S1" (uuid cfc5a586-8edf-4815-880a-51b7f3f98408))
     (instances
       (project "PowerChargeUSBHub"
         (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
@@ -1073,35 +1152,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:USB_A") (at 87.63 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 461384c4-7189-4ff7-b596-7230e60f5072)
-    (property "Reference" "J1" (at 87.63 45.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB_A" (at 87.63 48.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal" (at 91.44 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" " ~" (at 91.44 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7f399962-749e-4c2b-9ddf-524ddd696db5))
-    (pin "2" (uuid 1b875a47-28bd-41ca-a3a8-92209c63b7d1))
-    (pin "4" (uuid ec364e4d-6ec8-48de-ac37-080c5ba92f0d))
-    (pin "3" (uuid 221cbe4e-484a-45e6-b280-d25831df3f7b))
-    (pin "5" (uuid f6bfbc13-1ba1-4432-abf4-bcfecfa39479))
-    (instances
-      (project "PowerChargeUSBHub"
-        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 115.57 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f2d861d-0eec-463a-a161-5355dbc53cd1)
@@ -1117,8 +1167,8 @@
     (property "Datasheet" "~" (at 115.57 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7ea0a211-59ce-4852-a58c-494c26d3e2b7))
     (pin "1" (uuid 5c532491-98b2-49a0-aab6-4226321c520b))
+    (pin "2" (uuid 7ea0a211-59ce-4852-a58c-494c26d3e2b7))
     (instances
       (project "PowerChargeUSBHub"
         (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
@@ -1170,8 +1220,8 @@
     )
     (pin "1" (uuid 65805083-c5b4-4d01-ae34-47e774aef494))
     (pin "2" (uuid 31b68a7d-85bf-4f6f-87b9-b758e5ac430d))
-    (pin "4" (uuid 20ed7273-bc35-4291-98a3-f8601f1aec8c))
     (pin "3" (uuid b92f7079-8693-4bbc-8e15-6bd6ba6fa90f))
+    (pin "4" (uuid 20ed7273-bc35-4291-98a3-f8601f1aec8c))
     (pin "5" (uuid b0e6a199-a5f4-4ab8-be1a-c828260621c5))
     (instances
       (project "PowerChargeUSBHub"
@@ -1297,8 +1347,8 @@
     (property "Datasheet" "~" (at 132.08 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 58fe2fdf-7224-46bf-82db-0e7b780a9c97))
     (pin "1" (uuid ba98e93a-8a15-471a-acf7-008d44d475b6))
+    (pin "2" (uuid 58fe2fdf-7224-46bf-82db-0e7b780a9c97))
     (instances
       (project "PowerChargeUSBHub"
         (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
@@ -1409,6 +1459,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:USB_A") (at 87.63 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8bf2d168-fe24-4610-86cf-f4ebd2ebf31b)
+    (property "Reference" "J2" (at 87.63 45.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "USB_A" (at 87.63 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal" (at 91.44 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" " ~" (at 91.44 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e62a244e-5522-459e-baa6-b87069166147))
+    (pin "2" (uuid 88c7844a-d23c-4f9d-90d2-92fff57c254d))
+    (pin "3" (uuid 1138abfa-09fc-46c0-8c63-4d4f90f3b739))
+    (pin "4" (uuid c2765ff6-43c6-47e9-90c6-77d49af0f57e))
+    (pin "5" (uuid f3d15c71-fc49-4a78-9051-2974bdcd68a5))
+    (instances
+      (project "PowerChargeUSBHub"
+        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+5V") (at 111.76 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91073981-60c9-40c5-b4e4-e401c1d246db)
@@ -1429,6 +1508,31 @@
       (project "PowerChargeUSBHub"
         (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 49.53 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 98b06572-4caa-42e8-b55c-dafcfec3c125)
+    (property "Reference" "H3" (at 52.07 60.96 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M3" (at 52.07 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 49.53 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d9818298-7726-4eab-a98a-8166ab65ba8b))
+    (instances
+      (project "PowerChargeUSBHub"
+        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -1459,35 +1563,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:USB_A") (at 104.14 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f04ad01f-f113-470a-a98f-b5d960180fb4)
-    (property "Reference" "J2" (at 104.14 45.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB_A" (at 104.14 48.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal" (at 107.95 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" " ~" (at 107.95 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0534433b-d699-49e0-b514-595b66b45455))
-    (pin "2" (uuid 9c976c1e-0dd0-4e9f-867d-4c2119d30aa3))
-    (pin "4" (uuid 6b3388a5-e674-4f80-943c-626fc792ec4a))
-    (pin "3" (uuid 50547309-cdf6-4bb0-b636-61a2a832aefd))
-    (pin "5" (uuid cb6324b4-df8b-4188-bafa-1e98d17528f5))
-    (instances
-      (project "PowerChargeUSBHub"
-        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
-          (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Diode:1N5817") (at 111.76 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f803d65c-97c8-41f2-9ed8-6b443c3776a0)
@@ -1509,6 +1584,31 @@
       (project "PowerChargeUSBHub"
         (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
           (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 57.15 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f83143f6-38e3-4e76-b16a-0a2a681e18cf)
+    (property "Reference" "H4" (at 59.69 60.96 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M3" (at 59.69 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 57.15 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 57.15 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cbfc0dea-6aad-421a-a8dd-2da8d68208eb))
+    (instances
+      (project "PowerChargeUSBHub"
+        (path "/b12a6e25-97fb-4aba-bc96-af8db389bb9a"
+          (reference "H4") (unit 1)
         )
       )
     )

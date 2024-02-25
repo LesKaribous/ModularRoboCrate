@@ -1,0 +1,47 @@
+02-25 22:09:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'win32'
+02-25 22:09:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+02-25 22:09:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 7.0.6
+02-25 22:09:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.9
+
+02-25 22:09:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080), wx.Size(1920, 1080), wx.Size(1920, 1080)]
+02-25 22:09:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+02-25 22:09:07 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 15
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 24:Starting to archive 3D models
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: H4
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: H3
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: J4
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 132:Did not copy: ${KIPRJMOD}/Packages3D/USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: F1
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: J2
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/USB Connector Type A female.STEP
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/USB Connector Type A female.STEP
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: JP3
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: J1
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/USB Connector Type A female.STEP
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/USB Connector Type A female.STEP
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: R1
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/R_1206_3216Metric.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/R_1206_3216Metric.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: H1
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: D4
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: H2
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: D1
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: D2
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: J3
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/USB Connector Type A female.STEP
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/USB Connector Type A female.STEP
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: JP1
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: JP2
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: D3
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/Packages3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/Packages3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+02-25 22:09:09 com_github_MitjaNemec_Archive3DModels.archive_3d_models 147:Did not succeed to copy 3D models!
+('J4', '${KIPRJMOD}\\Packages3D\\USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.wrl')
